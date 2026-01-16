@@ -2,6 +2,8 @@ print("DADS 2.095F")
 local rp = game:GetService("ReplicatedStorage")
 local ds = rp:FindFirstChild("DADS_Storage")
 
+script.Parent = game:GetService("ServerScriptService")
+
 if ds then
 	local models = ds:FindFirstChild("Models")
 	if models then
